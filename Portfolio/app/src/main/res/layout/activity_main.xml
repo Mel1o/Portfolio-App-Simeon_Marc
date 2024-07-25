@@ -1,131 +1,614 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    >
 
-    <View
-        android:id="@+id/backgroundView"
-        android:layout_width="0dp"
-        android:layout_height="500dp"
-        android:background="@drawable/background_rectangle_rounded_me_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout
 
-    <View
-        android:id="@+id/backgroundView2"
-        android:layout_width="0dp"
-        android:layout_height="418dp"
-        android:background="@drawable/background_rectangle_rounded_me_2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="328dp"
-        android:layout_height="232dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394"
-        app:srcCompat="@drawable/portfolio_image_me" />
-
-    <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/inter"
-        android:text="Hello!"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
+        tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/inter"
-        android:text="I'm Marc Simeon!"
-        android:textColor="@color/white"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/inter"
-        android:text="Frontend Developer"
-        android:textColor="@android:color/holo_blue_light"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.648" />
-
-    <TextView
-        android:layout_width="196dp"
-        android:layout_height="151dp"
-        android:fontFamily="@font/inter"
-        android:text="I’m passionate about designing intuitive and visually appealing U.I/U.X that enhances user experience"
-        android:textColor="@color/white"
-        android:textSize="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.195"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877" />
-
-    <TextView
-        android:layout_width="200dp"
-        android:layout_height="109dp"
-        android:fontFamily="@font/inter"
-        android:text=" I also take great pleasure in coding and developing programs that offer real-world solutions and value"
-        android:textColor="@color/white"
-        android:textSize="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.18"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="288dp"
-        android:layout_height="287dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/graphic_art_me" />
+        <View
+            android:id="@+id/layoutSize"
+            android:layout_width="0dp"
+            android:layout_height="5000dp"
+            android:background="@drawable/background_rectangle_rounded_me_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <View
+            android:id="@+id/background_skyblue"
+            android:layout_width="0dp"
+            android:layout_height="600dp"
+            android:background="@drawable/background_rectangle_rounded_me_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.086" />
+
+
+        <ImageView
+            android:id="@+id/cloud1"
+            android:layout_width="414dp"
+            android:layout_height="194dp"
+            android:layout_marginStart="-190dp"
+            android:layout_marginTop="288dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/graphic_art_cloud_1" />
+
+        <ImageView
+            android:id="@+id/cloud2"
+            android:layout_width="359dp"
+            android:layout_height="222dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="-170dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/graphic_art_cloud_1" />
+
+        <View
+            android:id="@+id/background_experience"
+            android:layout_width="0dp"
+            android:layout_height="1958dp"
+            android:layout_marginTop="2008dp"
+            android:background="@drawable/background_rectangle_rounded_me_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/background_projects"
+            android:layout_width="0dp"
+            android:layout_height="2058dp"
+            android:layout_marginTop="980dp"
+            android:background="@drawable/background_rectangle_rounded_me_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/background_aboutMe"
+            android:layout_width="0dp"
+            android:layout_height="878dp"
+            android:layout_marginTop="380dp"
+            android:background="@drawable/background_rectangle_rounded_me_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/marc"
+            android:layout_width="328sp"
+            android:layout_height="232sp"
+            android:layout_marginTop="272dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/portfolio_image_me" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="408dp"
+            android:layout_height="426dp"
+            android:layout_marginTop="664dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/graphic_art_me" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:fontFamily="@font/inter"
+            android:gravity="center"
+            android:minWidth="200dp"
+            android:minHeight="100dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="Hello!"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="30sp"
+            app:autoSizeMinTextSize="20sp"
+            app:autoSizeStepGranularity="2sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="184dp"
+            android:fontFamily="@font/inter"
+            android:text="I'm Marc Simeon!"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="532dp"
+            android:fontFamily="@font/inter"
+            android:text="Frontend Developer"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.442"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="299dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="592dp"
+            android:fontFamily="@font/inter"
+            android:text="I’m passionate about designing intuitive and visually appealing U.I/U.X that enhances user experience"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="299dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="1060dp"
+            android:fontFamily="@font/inter"
+            android:text=" I take great pleasure in coding and developing programs that offer real-world solutions and value"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1312dp"
+            android:fontFamily="@font/inter"
+            android:text="Projects"
+            android:textColor="#FD866F"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.195"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="1384dp"
+            android:fontFamily="@font/inter"
+            android:text="EasyWorkload"
+            android:textColor="#FD9F6F"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="293dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="1428dp"
+            android:fontFamily="@font/inter"
+            android:text="Java desktop application designed to help students manage their workload efficiently. It offers a to-do list, calendar for an overview of tasks, progress tracking, daily task generator, and reminders for incomplete tasks."
+            android:textColor="#FFBE54"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="241dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="1580dp"
+            android:layout_marginEnd="100dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#fce2a5"
+            app:strokeWidth="2dp">
+
+            <ImageView
+                android:id="@+id/prtf_easyworkload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/portfolio_easyworkload"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="1715dp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="1784dp"
+            android:fontFamily="@font/inter"
+            android:text="Geotagging Website"
+            android:textColor="#FD9F6F"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="293dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="1828dp"
+            android:fontFamily="@font/inter"
+
+            android:text="This website aims to gather precise data instead of relying on estimates to improve business planning and labor cost calculations. It also tracks fertilizer use, pest information, and harvest output to optimize resource use."
+            android:textColor="#FFBE54"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="241dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="1980dp"
+            android:layout_marginEnd="100dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#fce2a5"
+            app:strokeWidth="2dp">
+
+            <ImageView
+                android:id="@+id/prtf_geo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/portfolio_geotagging"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="1715dp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="2184dp"
+            android:fontFamily="@font/inter"
+            android:text="Overwhelmed"
+            android:textColor="#FD9F6F"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="293dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="2228dp"
+            android:fontFamily="@font/inter"
+
+            android:text="Overwhelmed! is a bullet hell and adventure game where players control Marisa, an online college student with Social Anxiety Disorder. The game uses challenging sections to simulate social anxiety that reflect the interventions needed."
+            android:textColor="#FFBE54"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="241dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="2380dp"
+            android:layout_marginEnd="100dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#fce2a5"
+            app:strokeWidth="2dp">
+
+            <ImageView
+                android:id="@+id/prtf_overwhelmed"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:layout_marginStart="0dp"
+                app:srcCompat="@drawable/portfolio_overwhelmed" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="2584dp"
+            android:fontFamily="@font/inter"
+            android:text="Java UK Animation"
+            android:textColor="#FD9F6F"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="293dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="2628dp"
+            android:fontFamily="@font/inter"
+
+            android:text="This Java program animates the diurnal cycle in the UK, showcasing dynamic transitions between day and night. It features abstract and modern representations of landmarks such as Big Ben, the London Eye, and Tower Bridge, "
+            android:textColor="#FFBE54"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="241dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="2780dp"
+            android:layout_marginEnd="100dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#fce2a5"
+            app:strokeWidth="2dp">
+
+            <ImageView
+                android:id="@+id/prtf_animation"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-10dp"
+                app:srcCompat="@drawable/portfolio_animation" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3102dp"
+            android:fontFamily="@font/inter"
+            android:text="Experience"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3172dp"
+            android:fontFamily="@font/inter"
+            android:text="June - Aug 2023"
+            android:textColor="#fefec5"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="191dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3172dp"
+            android:fontFamily="@font/inter"
+            android:text="Rakso CT, Inc."
+            android:textColor="#fcfd7d"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="159dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3200dp"
+            android:fontFamily="@font/inter"
+            android:text="- UI/UX Designer"
+            android:textColor="#fdfe9a"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="158dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3228dp"
+            android:fontFamily="@font/inter"
+            android:text="Enhanced the visuals of the SchoolAide website using Photoshop for graphic design. I also crafted wireframes for the SchoolAide website to improve the user experience. Additionally, I documented quality control processes to optimize the SchoolAide website."
+            android:textColor="#fefec5"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.792"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3422dp"
+            android:fontFamily="@font/inter"
+            android:text="2022 - Aug 2023"
+            android:textColor="#fefec5"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3422dp"
+            android:fontFamily="@font/inter"
+            android:text="Laro Layola Ateneo Org."
+            android:textColor="#fcfd7d"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.798"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="159dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3450dp"
+            android:fontFamily="@font/inter"
+            android:text="- Graphics Designer"
+            android:textColor="#fdfe9a"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="138dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3478dp"
+            android:fontFamily="@font/inter"
+            android:text="I designed dynamic posters using Photoshop. I digitally created graphics for video games and produced graphics for Game Design Document (GDD) documentation."
+            android:textColor="#fefec5"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.792"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3654dp"
+            android:fontFamily="@font/inter"
+            android:text="Education"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="3720dp"
+            android:fontFamily="@font/inter"
+            android:text="2020 - 2024"
+            android:textColor="#fefec5"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="272dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="3768dp"
+            android:fontFamily="@font/inter"
+            android:text="- Bachelor of Computer Science"
+            android:textColor="#fdfe9a"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="272dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="3788dp"
+            android:fontFamily="@font/inter"
+            android:text="- Honorable Mention, 3.37 QPI"
+            android:textColor="#fdfe9a"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="231dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="3808dp"
+            android:fontFamily="@font/inter"
+            android:text="Graduated with specialization in Interactive Multimedia. Katipunan Ave, Quezon City"
+            android:textColor="#fefec5"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.855"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="3720dp"
+            android:fontFamily="@font/inter"
+            android:text="Ateneo de Manila University"
+            android:textColor="#fcfd7d"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
