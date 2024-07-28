@@ -3,4 +3,13 @@
     <string name="help">HELP ME</string>
     <string name="open_nav">Open Navigation Drawer</string>
     <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_about_me">About Me</string>
+    <string name="fragment_education">Education</string>
+    <string name="fragment_experience">Experience</string>
+    <string name="fragment_projects">Projects</string>
+    <string name="fragment_resume">Resume</string>
+    <string name="fragment_email">Email</string>
+    <string name="fragment_number">Number</string>
 </resources>

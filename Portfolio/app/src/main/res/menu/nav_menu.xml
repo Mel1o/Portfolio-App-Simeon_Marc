@@ -7,19 +7,24 @@
     <group
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_settings"
+            android:id="@+id/nav_me"
             android:icon="@drawable/nav_me"
             android:title="About Me"/>
 
         <item
-            android:id="@+id/nav_share"
+            android:id="@+id/nav_projects"
             android:icon="@drawable/nav_projects"
-            android:title="Share"/>
+            android:title="Projects"/>
 
         <item
-            android:id="@+id/nav_about"
+            android:id="@+id/nav_experience"
             android:icon="@drawable/nav_experience"
-            android:title="About Us"/>
+            android:title="Experience"/>
+
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/nav_education"
+            android:title="Education"/>
 
     </group>
     <item
@@ -27,9 +32,9 @@
 
         <menu>
             <item
-                android:id="@+id/nav_logout"
+                android:id="@+id/nav_resume"
                 android:icon="@drawable/nav_resume"
-                android:title="Logout"/>
+                android:title="Resume"/>
         </menu>
 
     </item>
@@ -41,11 +46,11 @@
             <item
                 android:id="@+id/nav_email"
                 android:icon="@drawable/nav_email"
-                android:title="Logout"/>
+                android:title="simeon.marc.2002@gmail.com"/>
             <item
                 android:id="@+id/nav_number"
                 android:icon="@drawable/nav_number"
-                android:title="Logout"/>
+                android:title="(+63)960 - 461 - 6174"/>
         </menu>
 
 
