@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_me"
+            android:title="About Me"/>
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/nav_projects"
+            android:title="Share"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_experience"
+            android:title="About Us"/>
+
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_resume"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/nav_email"
+                android:title="Logout"/>
+            <item
+                android:id="@+id/nav_number"
+                android:icon="@drawable/nav_number"
+                android:title="Logout"/>
+        </menu>
+
+
+
+    </item>
+
+</menu>
