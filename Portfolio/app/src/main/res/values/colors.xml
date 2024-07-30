@@ -7,5 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="lavender">#8692f7</color>
+    <color name="lavender">#6f8ffd</color>
+
+    <color name="grey_light">#40484f</color>
+    <color name="grey_medium">#36393f</color> <!-- Discord-like grey -->
+    <color name="grey_dark">#202124</color>
+
+    <color name="skyblue">#01B0FF</color>
+    <color name="yellow_orange">#FFBE54</color>
+    <color name="bright_yellow">#fce2a5</color>
 </resources>

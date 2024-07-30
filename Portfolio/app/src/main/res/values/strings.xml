@@ -3,7 +3,8 @@
     <string name="help">HELP ME</string>
     <string name="open_nav">Open Navigation Drawer</string>
     <string name="close_nav">Close Navigation Drawer</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- fragments -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="fragment_about_me">About Me</string>
     <string name="fragment_education">Education</string>
@@ -12,4 +13,62 @@
     <string name="fragment_resume">Resume</string>
     <string name="fragment_email">Email</string>
     <string name="fragment_number">Number</string>
+
+    <!-- Content Descriptions -->
+    <string name="cloud_left">Cloud graphic for the left side fo the screen</string>
+    <string name="cloud_right">Cloud graphic for the right side fo the screen</string>
+    <string name="about_me_picture">Picture of me for the About Me Section</string>
+    <string name="about_me_drawing">Drawing of me for the About Me Section</string>
+
+    <string name="project_1_cd">Picture of the first project</string>
+    <string name="project_2_cd">Picture of the second project</string>
+    <string name="project_3_cd">Picture of the third project</string>
+    <string name="project_4_cd">Picture of the fourth project</string>
+
+    <!-- About Me Strings -->
+    <string name="hello">Hello!</string>
+    <string name="my_name">I\'m Marc Simeon!</string>
+    <string name="job">Frontend Developer</string>
+    <string name="my_description">I’m passionate about designing intuitive and visually appealing U.I/U.X that enhances user experience. I take great pleasure in coding and developing programs that offer real-world solutions and value</string>
+
+    <!-- Project Strings -->
+
+    <string name="section_title_projects">Projects</string>
+    <string name="project_title_1">EasyWorkload</string>
+    <string name="project_description_1">Java desktop application designed to help students manage their workload efficiently. It offers a to-do list, calendar for an overview of tasks, progress tracking, daily task generator, and reminders for incomplete tasks.</string>
+    <string name="project_title_2">Geotagging Website</string>
+    <string name="project_description_2">This website aims to gather precise data instead of relying on estimates to improve business planning and labor cost calculations. It also tracks fertilizer use, pest information, and harvest output to optimize resource use.</string>
+    <string name="project_title_3">Overwhelmed</string>
+    <string name="project_description_3">Overwhelmed! is a bullet hell and adventure game where players control Marisa, an online college student with Social Anxiety Disorder. The game uses challenging sections to simulate social anxiety that reflect the interventions needed.</string>
+    <string name="project_title_4">Java UK Animation</string>
+    <string name="project_description_4">This Java program animates the diurnal cycle in the UK, showcasing dynamic transitions between day and night. It features abstract and modern representations of landmarks such as Big Ben, the London Eye, and Tower Bridge.</string>
+
+
+    <!-- Experience Strings -->
+    <string name="section_title_experience">Experience</string>
+
+    <string name="job_name_1">Rakso CT, Inc.</string>
+    <string name="job_period_1">June - Aug 2023</string>
+    <string name="job_title_1">- UI/UX Designe</string>
+    <string name="job_description_1">Enhanced the visuals of the SchoolAide website using Photoshop for graphic design. I also crafted wireframes for the SchoolAide website to improve the user experience. Additionally, I documented quality control processes to optimize the SchoolAide website.</string>
+
+    <string name="job_name_2">Laro Layola Ateneo Org.</string>
+    <string name="job_period_2">2022 - Aug 2023</string>
+    <string name="job_title_2">- Graphics Designer</string>
+    <string name="job_description_2">I designed dynamic posters using Photoshop. I digitally created graphics for video games and produced graphics for Game Design Document (GDD) documentation.</string>
+
+    <!-- Education Strings -->
+    <string name="section_title_education">Education</string>
+    <string name="education_period">2020 - 2024</string>
+    <string name="education_college">Ateneo de Manila University</string>
+    <string name="education_degree">- Bachelor of Computer Science</string>
+    <string name="education_honor">- Honorable Mention, 3.37 QPI</string>
+    <string name="education_description">Graduated with specialization in Interactive Multimedia. Katipunan Ave, Quezon City</string>
+
+    <!-- Education Strings -->
+    <string name="section_title_contacts">Contacts</string>
+    <string name="contacts_email">simeon.marc.2002@gmail.com</string>
+    <string name="contacs_number">(+63)960 - 461 - 6174</string>
+
+
 </resources>
