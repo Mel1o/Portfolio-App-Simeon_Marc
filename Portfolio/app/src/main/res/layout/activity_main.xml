@@ -698,6 +698,7 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/nav_menu"
+        android:background="@color/white"
         app:itemIconTint="@color/grey_medium"
         app:itemTextColor="@color/grey_medium"/>
 
