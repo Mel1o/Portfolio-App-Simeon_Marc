@@ -161,20 +161,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             val intent = Intent(Intent.ACTION_VIEW)
             intent.setDataAndType(pdfUri, "application/pdf")
             intent.flags = Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NO_HISTORY
-            val chooser = Intent.createChooser(intent, "Open with")
+            startActivity(intent)
 
-            // Check if there's an app that can handle the intent
-            if (intent.resolveActivity(packageManager) != null) {
-                startActivity(chooser)
-            } else {
-                Toast.makeText(this, "No PDF viewer found", Toast.LENGTH_SHORT).show()
-            }
 
         } catch (e: Exception) {
             e.printStackTrace()
             Toast.makeText(this, "Error opening PDF", Toast.LENGTH_SHORT).show()
         }
     }
+
 
 
 
