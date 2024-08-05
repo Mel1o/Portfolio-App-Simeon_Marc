@@ -217,7 +217,7 @@
                 android:layout_marginTop="1312dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/section_title_projects"
-                android:textColor="#FD866F"
+                android:textColor="@color/purple_700"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -235,7 +235,7 @@
                 android:layout_marginTop="1388dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/project_title_1"
-                android:textColor="#FD9F6F"
+                android:textColor="@color/purple_500"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -250,7 +250,7 @@
                 android:layout_marginTop="1428dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/project_description_1"
-                android:textColor="#FFBE54"
+                android:textColor="@color/purple_200"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/project_title_1"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -262,7 +262,7 @@
                 app:cardCornerRadius="8dp"
                 app:layout_constraintStart_toStartOf="@+id/project_description_1"
                 app:layout_constraintTop_toTopOf="parent"
-                app:strokeColor="#fce2a5"
+                app:strokeColor="@color/purple_200"
                 app:strokeWidth="2dp">
 
                 <ImageView
@@ -284,7 +284,7 @@
                 android:layout_marginTop="1784dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/project_title_2"
-                android:textColor="#FD9F6F"
+                android:textColor="@color/purple_500"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -299,7 +299,7 @@
                 android:layout_marginTop="1828dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/project_description_2"
-                android:textColor="#FFBE54"
+                android:textColor="@color/purple_200"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/project_title_2"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -311,7 +311,7 @@
                 app:cardCornerRadius="8dp"
                 app:layout_constraintStart_toStartOf="@+id/project_description_2"
                 app:layout_constraintTop_toTopOf="parent"
-                app:strokeColor="#fce2a5"
+                app:strokeColor="@color/purple_200"
                 app:strokeWidth="2dp">
 
                 <ImageView
@@ -332,7 +332,7 @@
                 android:layout_marginTop="2184dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/project_title_3"
-                android:textColor="#FD9F6F"
+                android:textColor="@color/purple_500"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -347,7 +347,7 @@
                 android:layout_marginTop="2228dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/project_description_3"
-                android:textColor="#FFBE54"
+                android:textColor="@color/purple_200"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/project_title_3"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -359,7 +359,7 @@
                 app:cardCornerRadius="8dp"
                 app:layout_constraintStart_toStartOf="@+id/project_description_3"
                 app:layout_constraintTop_toTopOf="parent"
-                app:strokeColor="#fce2a5"
+                app:strokeColor="@color/purple_200"
                 app:strokeWidth="2dp">
 
                 <ImageView
@@ -380,7 +380,7 @@
                 android:layout_marginTop="2584dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/project_title_4"
-                android:textColor="#FD9F6F"
+                android:textColor="@color/purple_500"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -395,7 +395,7 @@
                 android:layout_marginTop="2628dp"
                 android:fontFamily="@font/inter"
                 android:text="@string/project_description_4"
-                android:textColor="#FFBE54"
+                android:textColor="@color/purple_200"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/project_title_4"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -407,7 +407,7 @@
                 app:cardCornerRadius="8dp"
                 app:layout_constraintStart_toStartOf="@+id/project_description_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:strokeColor="#fce2a5"
+                app:strokeColor="@color/purple_200"
                 app:strokeWidth="2dp">
 
                 <ImageView
